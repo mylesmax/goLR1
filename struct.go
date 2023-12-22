@@ -16,18 +16,17 @@ func (g Gate) Tau() float64 {
 	return 1 / (g.alpha + g.beta)
 }
 
-
 type Status struct {
-	V, dt,stim float64
-	gates struct {
-		m,h,j,d,f,X,K1 Gate
-		Xi, Kp GateA
+	V, dt, stim float64
+	gates       struct {
+		m, h, j, d, f, X, K1 Gate
+		Xi, Kp               GateA
 	}
 	out struct {
-		V []float64
-		m,h,j,d,f,X,K1,Xi,Kp []float64
-		INa, Isi, Ik, IK1,IKP, Ib []float64
-		Cai []float64
+		V                                  []float64
+		m, h, j, d, f, X, K1, Xi, Kp, stim []float64
+		INa, Isi, Ik, IK1, IKP, Ib         []float64
+		Cai                                []float64
 	}
 	i int
 }
