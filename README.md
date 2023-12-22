@@ -14,7 +14,7 @@ or ``go build goLR1`` and run the executable. output ``out.txt`` can be plotted 
 
 ## Output
 
-the expected output for a 60mV stimulus from 30ms to 30.5ms (tspan from 0ms to 600ms) would be the following three plots
+the expected output for a 60µA stimulus from 30ms to 30.5ms (tspan from 0ms to 600ms) would be the following three plots
 
 ![4.png](https://i.imgur.com/Rk0RyC0.png)
 
